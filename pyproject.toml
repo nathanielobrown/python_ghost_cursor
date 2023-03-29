@@ -10,7 +10,7 @@ version = "0.1.2"
 [tool.poetry.dependencies]
 bezier = {git = "https://github.com/nathanielobrown/bezier"}
 numpy = "^1.24.2"
-python = ">=3.8,<3.12"
+python = ">=3.8"
 scipy = "^1.10.1"
 
 [tool.poetry.group.dev.dependencies]
