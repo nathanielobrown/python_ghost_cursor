@@ -1,0 +1,23 @@
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = "Python implementation of Xetera/ghost-cursor"
+license = "MIT"
+name = "python-ghost-cursor"
+packages = [{include = "python_ghost_cursor"}]
+readme = "README.md"
+version = "0.1.2"
+
+[tool.poetry.dependencies]
+bezier = {git = "https://github.com/dhermes/bezier"}
+numpy = "^1.24.2"
+python = ">=3.8,<3.12"
+scipy = "^1.10.1"
+
+[tool.poetry.group.dev.dependencies]
+playwright = "^1.32.0"
+pytest = "^7.2.2"
+pytest-playwright = "^0.3.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
