@@ -8,7 +8,7 @@ readme = "README.md"
 version = "0.1.2"
 
 [tool.poetry.dependencies]
-bezier = {git = "https://github.com/nathanielobrown/bezier"}
+bezier = {git = "https://github.com/nathanielobrown/bezier", rev = "5c568a0d264222eb487b804b316b56ed5a8904f4"}
 numpy = "^1.24.2"
 python = ">=3.8"
 scipy = "^1.10.1"
